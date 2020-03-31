@@ -13,6 +13,7 @@ def loop_message_n_times(string, integer)
   x = 0 
   while x < integer
     puts string
+    x = x + 1
   end
 end
 
