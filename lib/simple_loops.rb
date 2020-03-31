@@ -17,4 +17,7 @@ def loop_message_n_times(string, integer)
 end
 
 def output_array(array)
-  
+  for x in array
+    puts x 
+  end 
+end
